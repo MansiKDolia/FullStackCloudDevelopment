@@ -44,5 +44,13 @@ div=num1/num2
 power=num1**num2
 print(add,sub,mul,div,power)
 
+print("Enter the third input")
+num3=int(input())
+new_add=add+num3
+new_sub=sub-num3
+new_mul=mul*num3
+new_div=div/num3
+new_power=power**num3
+print(new_add,new_sub,new_mul,new_div,new_power)
 
 
